@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Modifier_const_readonly
 {
@@ -22,11 +20,6 @@ namespace Modifier_const_readonly
             Console.WriteLine(Modifiers.interestRate);
             Modifiers instance = new Modifiers(23);
             Console.WriteLine(instance.mortgageLength);
-
-            
-
-            
-
         }
     }
 }
